@@ -1,0 +1,17 @@
+{
+    "name": "koen_karsten/basic-html-editor",
+    "description": "Little PHP tool that allows you to easily edit HTML content, and store this in a file based YAML format",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Koen Karsten",
+            "email": "info@karsten-it.nl"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "altorouter/altorouter": "^1.1",
+        "twig/twig": "~1.21.1",
+        "symfony/yaml": "^2.7"
+    }
+}

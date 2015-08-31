@@ -1,0 +1,3 @@
+## name: [METHOD, "/url", "file_to_load"]
+index: ["GET", "/", "ViewController#overview"]
+edit:	 ["GET", "/item/[i:id]", "ViewController#edit"]
