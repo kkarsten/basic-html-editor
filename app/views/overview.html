@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{ data.title }}</title>
+	<title>{{ title }}</title>
 	{% include 'partials/head/js.html' %}
 	{% include 'partials/head/css.html' %}
 </head>
 <body>
 	<table class="col-md-4 col-md-offset-4">
-	<tr><a href="">{{ row }}</a></tr>
-		{% for row in data.data %}
+		{% for row in data %}
 			<tr><td><a href="/item/{{row.id}}">{{ row.title }}</a></td></tr>
 		{% endfor %}
 	</table>
