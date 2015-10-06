@@ -6,10 +6,9 @@
 	{% include 'partials/head/css.html' %}
 </head>
 <body>
-	<table class="col-md-4 col-md-offset-4">
-		{% for row in data %}
-			<tr><td><a href="/item/{{row.id}}">{{ row.title }}</a></td></tr>
-		{% endfor %}
-	</table>
+	<div id="wrapper">
+		{% include 'partials/body/sidebar.html' %}
+		{% include 'partials/body/navbar.html' %}
+	</div>
 </body>
 </html>
