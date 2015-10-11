@@ -12,6 +12,7 @@
     "require-dev": {
         "altorouter/altorouter": "^1.1",
         "twig/twig": "~1.21.1",
-        "symfony/yaml": "^2.7"
+        "symfony/yaml": "^2.7",
+        "vlucas/spot2": "~2.0"
     }
 }

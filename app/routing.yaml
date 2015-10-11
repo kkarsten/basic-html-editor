@@ -1,3 +1,2 @@
 ## name:    [METHOD, "/url", "class#function to call"]
 index:      ["GET", "/", "ViewController#overview"]
-edit:	    ["GET", "/item/[i:id]", "ViewController#edit"]
