@@ -1,9 +1,7 @@
 <?php
 	// Initialization
-	error_reporting(E_ALL);
-	ini_set('display_errors', 1);
-	define('__VENDOR__', "../vendor");
-	define('__CACHE__', "../cache");
+	require __DIR__.'/config/settings.php';
+	require __DIR__.'/config/constants.php';
 
 	// Dependencies
 	$loader = require __VENDOR__.'/autoload.php';
